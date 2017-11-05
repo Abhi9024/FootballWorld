@@ -2323,7 +2323,7 @@
       ]
     },
     "System.Linq.Queryable/4.0.1": {
-      "sha512": "Yn/WfYe9RoRfmSLvUt2JerP0BTGGykCZkQPgojaxgzF2N0oPo+/AhB8TXOpdCcNlrG3VRtsamtK2uzsp3cqRVw==",
+      "sha512": "NKu7PfQzieGwE3QxJ3+ZwAK597sKgYilB570dyTpJfcXZETbF9oKSkp2a8t43aoxi85yVtpIDozua1gtLXL1Xg==",
       "type": "package",
       "path": "system.linq.queryable/4.0.1",
       "files": [
@@ -3357,7 +3357,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\AbhishekR\\.nuget\\packages\\": {},
+    "C:\\Users\\Admin\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -3366,17 +3366,17 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "D:\\My Folder\\Projects\\Angular-AspCore\\Football\\FootballWorld\\FootballWorld.DataLayer.Entity\\FootballWorld.DataLayer.Entity.csproj",
+      "projectUniqueName": "D:\\Projects\\FootballWorld\\FootballWorld.DataLayer.Entity\\FootballWorld.DataLayer.Entity.csproj",
       "projectName": "FootballWorld.DataLayer.Entity",
-      "projectPath": "D:\\My Folder\\Projects\\Angular-AspCore\\Football\\FootballWorld\\FootballWorld.DataLayer.Entity\\FootballWorld.DataLayer.Entity.csproj",
-      "packagesPath": "C:\\Users\\AbhishekR\\.nuget\\packages\\",
-      "outputPath": "D:\\My Folder\\Projects\\Angular-AspCore\\Football\\FootballWorld\\FootballWorld.DataLayer.Entity\\obj\\",
+      "projectPath": "D:\\Projects\\FootballWorld\\FootballWorld.DataLayer.Entity\\FootballWorld.DataLayer.Entity.csproj",
+      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+      "outputPath": "D:\\Projects\\FootballWorld\\FootballWorld.DataLayer.Entity\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\AbhishekR\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3384,7 +3384,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://www.nuget.org/api/v2/": {}
       },
       "frameworks": {
         "netcoreapp2.0": {

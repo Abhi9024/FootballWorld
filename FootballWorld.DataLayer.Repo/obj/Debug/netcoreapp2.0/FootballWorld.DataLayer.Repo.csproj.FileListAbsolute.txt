@@ -11,3 +11,16 @@ D:\My Folder\Projects\Angular-AspCore\Football\FootballWorld\FootballWorld.DataL
 D:\My Folder\Projects\Angular-AspCore\Football\FootballWorld\FootballWorld.DataLayer.Repo\bin\Debug\netcoreapp2.0\FootballWorld.DataLayer.Entity.dll
 D:\My Folder\Projects\Angular-AspCore\Football\FootballWorld\FootballWorld.DataLayer.Repo\bin\Debug\netcoreapp2.0\FootballWorld.Business.Logic.pdb
 D:\My Folder\Projects\Angular-AspCore\Football\FootballWorld\FootballWorld.DataLayer.Repo\bin\Debug\netcoreapp2.0\FootballWorld.DataLayer.Entity.pdb
+D:\Projects\FootballWorld\FootballWorld.DataLayer.Repo\bin\Debug\netcoreapp2.0\FootballWorld.DataLayer.Repo.deps.json
+D:\Projects\FootballWorld\FootballWorld.DataLayer.Repo\bin\Debug\netcoreapp2.0\FootballWorld.DataLayer.Repo.dll
+D:\Projects\FootballWorld\FootballWorld.DataLayer.Repo\bin\Debug\netcoreapp2.0\FootballWorld.DataLayer.Repo.pdb
+D:\Projects\FootballWorld\FootballWorld.DataLayer.Repo\bin\Debug\netcoreapp2.0\FootballWorld.Business.Logic.dll
+D:\Projects\FootballWorld\FootballWorld.DataLayer.Repo\bin\Debug\netcoreapp2.0\FootballWorld.DataLayer.Entity.dll
+D:\Projects\FootballWorld\FootballWorld.DataLayer.Repo\bin\Debug\netcoreapp2.0\FootballWorld.Business.Logic.pdb
+D:\Projects\FootballWorld\FootballWorld.DataLayer.Repo\bin\Debug\netcoreapp2.0\FootballWorld.DataLayer.Entity.pdb
+D:\Projects\FootballWorld\FootballWorld.DataLayer.Repo\obj\Debug\netcoreapp2.0\FootballWorld.DataLayer.Repo.csprojResolveAssemblyReference.cache
+D:\Projects\FootballWorld\FootballWorld.DataLayer.Repo\obj\Debug\netcoreapp2.0\FootballWorld.DataLayer.Repo.csproj.CoreCompileInputs.cache
+D:\Projects\FootballWorld\FootballWorld.DataLayer.Repo\obj\Debug\netcoreapp2.0\FootballWorld.DataLayer.Repo.AssemblyInfoInputs.cache
+D:\Projects\FootballWorld\FootballWorld.DataLayer.Repo\obj\Debug\netcoreapp2.0\FootballWorld.DataLayer.Repo.AssemblyInfo.cs
+D:\Projects\FootballWorld\FootballWorld.DataLayer.Repo\obj\Debug\netcoreapp2.0\FootballWorld.DataLayer.Repo.dll
+D:\Projects\FootballWorld\FootballWorld.DataLayer.Repo\obj\Debug\netcoreapp2.0\FootballWorld.DataLayer.Repo.pdb

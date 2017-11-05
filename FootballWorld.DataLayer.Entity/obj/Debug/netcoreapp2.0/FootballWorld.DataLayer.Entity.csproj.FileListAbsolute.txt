@@ -7,3 +7,12 @@ D:\My Folder\Projects\Angular-AspCore\Football\FootballWorld\FootballWorld.DataL
 D:\My Folder\Projects\Angular-AspCore\Football\FootballWorld\FootballWorld.DataLayer.Entity\obj\Debug\netcoreapp2.0\FootballWorld.DataLayer.Entity.dll
 D:\My Folder\Projects\Angular-AspCore\Football\FootballWorld\FootballWorld.DataLayer.Entity\obj\Debug\netcoreapp2.0\FootballWorld.DataLayer.Entity.pdb
 D:\My Folder\Projects\Angular-AspCore\Football\FootballWorld\FootballWorld.DataLayer.Entity\obj\Debug\netcoreapp2.0\FootballWorld.DataLayer.Entity.csprojResolveAssemblyReference.cache
+D:\Projects\FootballWorld\FootballWorld.DataLayer.Entity\bin\Debug\netcoreapp2.0\FootballWorld.DataLayer.Entity.deps.json
+D:\Projects\FootballWorld\FootballWorld.DataLayer.Entity\bin\Debug\netcoreapp2.0\FootballWorld.DataLayer.Entity.dll
+D:\Projects\FootballWorld\FootballWorld.DataLayer.Entity\bin\Debug\netcoreapp2.0\FootballWorld.DataLayer.Entity.pdb
+D:\Projects\FootballWorld\FootballWorld.DataLayer.Entity\obj\Debug\netcoreapp2.0\FootballWorld.DataLayer.Entity.csprojResolveAssemblyReference.cache
+D:\Projects\FootballWorld\FootballWorld.DataLayer.Entity\obj\Debug\netcoreapp2.0\FootballWorld.DataLayer.Entity.csproj.CoreCompileInputs.cache
+D:\Projects\FootballWorld\FootballWorld.DataLayer.Entity\obj\Debug\netcoreapp2.0\FootballWorld.DataLayer.Entity.AssemblyInfoInputs.cache
+D:\Projects\FootballWorld\FootballWorld.DataLayer.Entity\obj\Debug\netcoreapp2.0\FootballWorld.DataLayer.Entity.AssemblyInfo.cs
+D:\Projects\FootballWorld\FootballWorld.DataLayer.Entity\obj\Debug\netcoreapp2.0\FootballWorld.DataLayer.Entity.dll
+D:\Projects\FootballWorld\FootballWorld.DataLayer.Entity\obj\Debug\netcoreapp2.0\FootballWorld.DataLayer.Entity.pdb

@@ -83,3 +83,28 @@
         
     </div>
 </div>
+
+
+<div class="row">
+    <div class="col-sm-3">
+        <input type="button" class="btn btn-link" value="Add Club" (click)="toggleAddClub()" />
+    </div>
+    <div class="col-sm-9">
+        <form [formGroup]="clubsForm" (ngSubmit)="SubmitForm(clubsForm)" *ngIf="IsAddClubEnabled" class="editForm" novalidate>
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <label class="center-block">
+                            Name:
+                        </label>
+                        <input type="text" class="form-control" formControlName="clubName">
+                        <div class="alert alert-danger" [hidden]="clubsForm.controls.clubName.untouched || clubsForm.controls.clubName.valid">Club name is required.</div>
+                    </div>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-success">
+                Submit
+            </button>
+        </form>
+    </div>
+</div>
