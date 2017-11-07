@@ -23,7 +23,9 @@ export class FootballComponent {
         clubWorth: '',
         country: '',
         ranking: 0,
-        state:''
+        state: '',
+        defensive: 0,
+        offensive:0
     };
 
     constructor(private footBallService: FootballService, private formBuilder: FormBuilder) { }
@@ -55,4 +57,17 @@ export class FootballComponent {
     toggleAddClub(): void {
         this.IsAddClubEnabled = (this.IsAddClubEnabled) ? false : true;
     };
+
+    public doughnutChartLabels: string[] = ['Defensive', 'Offensive'];
+    public doughnutChartType: string = 'pie';
+
+    // events
+    public chartClicked(e: any): void {
+        console.log(e);
+    }
+
+    public chartHovered(e: any): void {
+        console.log(e);
+    }
+
 }

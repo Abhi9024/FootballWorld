@@ -8,4 +8,6 @@
     ranking: number;
     state: string;
     country: string;
+    defensive: number;
+    offensive: number;
 } 

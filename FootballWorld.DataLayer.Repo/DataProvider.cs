@@ -38,7 +38,9 @@ namespace FootballWorld.DataLayer.Repo
                     FoundedDate = entity.FoundedDate,
                     LeagueTitles = entity.LeagueTitles,
                     Ranking = entity.Ranking,
-                    State = entity.State
+                    State = entity.State,
+                    Defensive=entity.Defensive,
+                    Offensive=entity.Offensive
                 };
                 returnData.Add(club);
             }

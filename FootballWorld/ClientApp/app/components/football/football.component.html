@@ -7,82 +7,95 @@
 
 
 <div class="row">
-    <div class="col-sm-10" *ngFor="let club of clubs">
-        <div class="row ">
-            <div class="col-sm-3">
-                <label>ClubName:</label>
-            </div>
-            <div class="col-sm-3">
-                <span>{{club.clubName}}</span>
-            </div>
-        </div>
+    <div class="col-sm-12" *ngFor="let club of clubs">
         <div class="row">
-            <div class="col-sm-3">
-                <label>ClubDescription:</label>
+            <div class="col-sm-6">
+                <div class="row ">
+                    <div class="col-sm-3">
+                        <label>ClubName:</label>
+                    </div>
+                    <div class="col-sm-3">
+                        <span>{{club.clubName}}</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-3">
+                        <label>ClubDescription:</label>
+                    </div>
+                    <div class="col-sm-3">
+                        <span>{{club.clubdescription}}</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-3">
+                        <label>ClubLeagueName:</label>
+                    </div>
+                    <div class="col-sm-3">
+                        <span>{{club.leagueName}}</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-3">
+                        <label>LeagueTitles:</label>
+                    </div>
+                    <div class="col-sm-3">
+                        <span>{{club.leagueTitles}}</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-3">
+                        <label>ChampionsLeagueTitles:</label>
+                    </div>
+                    <div class="col-sm-3">
+                        <span>{{club.championsLeagueTitle}}</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-3">
+                        <label>ClubWorth:</label>
+                    </div>
+                    <div class="col-sm-3">
+                        <span>{{club.clubWorth}}</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-3">
+                        <label>Ranking:</label>
+                    </div>
+                    <div class="col-sm-3">
+                        <span>{{club.ranking}}</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-3">
+                        <label>State:</label>
+                    </div>
+                    <div class="col-sm-3">
+                        <span>{{club.state}}</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-3">
+                        <label>Country:</label>
+                    </div>
+                    <div class="col-sm-3">
+                        <span>{{club.country}}</span>
+                    </div>
+                </div>
             </div>
-            <div class="col-sm-3">
-                <span>{{club.clubdescription}}</span>
+            <div class="col-sm-6">
+                <div style="display: block">
+                    <canvas height="40" width="100" baseChart
+                            [data]="[club.defensive,club.offensive]"
+                            [labels]="doughnutChartLabels"
+                            [chartType]="doughnutChartType"
+                            (chartHover)="chartHovered($event)"
+                            (chartClick)="chartClicked($event)"></canvas>
+                </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-sm-3">
-                <label>ClubLeagueName:</label>
-            </div>
-            <div class="col-sm-3">
-                <span>{{club.leagueName}}</span>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-3">
-                <label>LeagueTitles:</label>
-            </div>
-            <div class="col-sm-3">
-                <span>{{club.leagueTitles}}</span>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-3">
-                <label>ChampionsLeagueTitles:</label>
-            </div>
-            <div class="col-sm-3">
-                <span>{{club.championsLeagueTitle}}</span>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-3">
-                <label>ClubWorth:</label>
-            </div>
-            <div class="col-sm-3">
-                <span>{{club.clubWorth}}</span>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-3">
-                <label>Ranking:</label>
-            </div>
-            <div class="col-sm-3">
-                <span>{{club.ranking}}</span>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-3">
-                <label>State:</label>
-            </div>
-            <div class="col-sm-3">
-                <span>{{club.state}}</span>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-3">
-                <label>Country:</label>
-            </div>
-            <div class="col-sm-3">
-                <span>{{club.country}}</span>
-            </div>
-        </div>
-        
+    
     </div>
-</div>
 
 
 <div class="row">
@@ -108,3 +121,5 @@
         </form>
     </div>
 </div>
+
+

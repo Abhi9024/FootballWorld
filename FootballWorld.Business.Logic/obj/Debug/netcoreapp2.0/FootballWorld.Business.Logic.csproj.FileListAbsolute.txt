@@ -20,3 +20,14 @@ D:\Projects\FootballWorld\FootballWorld.Business.Logic\obj\Debug\netcoreapp2.0\F
 D:\Projects\FootballWorld\FootballWorld.Business.Logic\obj\Debug\netcoreapp2.0\FootballWorld.Business.Logic.AssemblyInfo.cs
 D:\Projects\FootballWorld\FootballWorld.Business.Logic\obj\Debug\netcoreapp2.0\FootballWorld.Business.Logic.dll
 D:\Projects\FootballWorld\FootballWorld.Business.Logic\obj\Debug\netcoreapp2.0\FootballWorld.Business.Logic.pdb
+D:\My Folder\Projects\FootballWorld\FootballWorld.Business.Logic\bin\Debug\netcoreapp2.0\FootballWorld.Business.Logic.deps.json
+D:\My Folder\Projects\FootballWorld\FootballWorld.Business.Logic\bin\Debug\netcoreapp2.0\FootballWorld.Business.Logic.dll
+D:\My Folder\Projects\FootballWorld\FootballWorld.Business.Logic\bin\Debug\netcoreapp2.0\FootballWorld.Business.Logic.pdb
+D:\My Folder\Projects\FootballWorld\FootballWorld.Business.Logic\bin\Debug\netcoreapp2.0\FootballWorld.DataLayer.Entity.dll
+D:\My Folder\Projects\FootballWorld\FootballWorld.Business.Logic\bin\Debug\netcoreapp2.0\FootballWorld.DataLayer.Entity.pdb
+D:\My Folder\Projects\FootballWorld\FootballWorld.Business.Logic\obj\Debug\netcoreapp2.0\FootballWorld.Business.Logic.csprojResolveAssemblyReference.cache
+D:\My Folder\Projects\FootballWorld\FootballWorld.Business.Logic\obj\Debug\netcoreapp2.0\FootballWorld.Business.Logic.csproj.CoreCompileInputs.cache
+D:\My Folder\Projects\FootballWorld\FootballWorld.Business.Logic\obj\Debug\netcoreapp2.0\FootballWorld.Business.Logic.AssemblyInfoInputs.cache
+D:\My Folder\Projects\FootballWorld\FootballWorld.Business.Logic\obj\Debug\netcoreapp2.0\FootballWorld.Business.Logic.AssemblyInfo.cs
+D:\My Folder\Projects\FootballWorld\FootballWorld.Business.Logic\obj\Debug\netcoreapp2.0\FootballWorld.Business.Logic.dll
+D:\My Folder\Projects\FootballWorld\FootballWorld.Business.Logic\obj\Debug\netcoreapp2.0\FootballWorld.Business.Logic.pdb

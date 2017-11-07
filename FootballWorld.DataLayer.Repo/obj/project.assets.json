@@ -2350,7 +2350,7 @@
       ]
     },
     "System.Linq.Queryable/4.0.1": {
-      "sha512": "NKu7PfQzieGwE3QxJ3+ZwAK597sKgYilB570dyTpJfcXZETbF9oKSkp2a8t43aoxi85yVtpIDozua1gtLXL1Xg==",
+      "sha512": "Yn/WfYe9RoRfmSLvUt2JerP0BTGGykCZkQPgojaxgzF2N0oPo+/AhB8TXOpdCcNlrG3VRtsamtK2uzsp3cqRVw==",
       "type": "package",
       "path": "system.linq.queryable/4.0.1",
       "files": [
@@ -3394,7 +3394,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Admin\\.nuget\\packages\\": {},
+    "C:\\Users\\AbhishekR\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -3403,17 +3403,17 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "D:\\Projects\\FootballWorld\\FootballWorld.DataLayer.Repo\\FootballWorld.DataLayer.Repo.csproj",
+      "projectUniqueName": "D:\\My Folder\\Projects\\FootballWorld\\FootballWorld.DataLayer.Repo\\FootballWorld.DataLayer.Repo.csproj",
       "projectName": "FootballWorld.DataLayer.Repo",
-      "projectPath": "D:\\Projects\\FootballWorld\\FootballWorld.DataLayer.Repo\\FootballWorld.DataLayer.Repo.csproj",
-      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\FootballWorld\\FootballWorld.DataLayer.Repo\\obj\\",
+      "projectPath": "D:\\My Folder\\Projects\\FootballWorld\\FootballWorld.DataLayer.Repo\\FootballWorld.DataLayer.Repo.csproj",
+      "packagesPath": "C:\\Users\\AbhishekR\\.nuget\\packages\\",
+      "outputPath": "D:\\My Folder\\Projects\\FootballWorld\\FootballWorld.DataLayer.Repo\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\AbhishekR\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3421,16 +3421,16 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://www.nuget.org/api/v2/": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "D:\\Projects\\FootballWorld\\FootballWorld.Business.Logic\\FootballWorld.Business.Logic.csproj": {
-              "projectPath": "D:\\Projects\\FootballWorld\\FootballWorld.Business.Logic\\FootballWorld.Business.Logic.csproj"
+            "D:\\My Folder\\Projects\\FootballWorld\\FootballWorld.Business.Logic\\FootballWorld.Business.Logic.csproj": {
+              "projectPath": "D:\\My Folder\\Projects\\FootballWorld\\FootballWorld.Business.Logic\\FootballWorld.Business.Logic.csproj"
             },
-            "D:\\Projects\\FootballWorld\\FootballWorld.DataLayer.Entity\\FootballWorld.DataLayer.Entity.csproj": {
-              "projectPath": "D:\\Projects\\FootballWorld\\FootballWorld.DataLayer.Entity\\FootballWorld.DataLayer.Entity.csproj"
+            "D:\\My Folder\\Projects\\FootballWorld\\FootballWorld.DataLayer.Entity\\FootballWorld.DataLayer.Entity.csproj": {
+              "projectPath": "D:\\My Folder\\Projects\\FootballWorld\\FootballWorld.DataLayer.Entity\\FootballWorld.DataLayer.Entity.csproj"
             }
           }
         }

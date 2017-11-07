@@ -18,6 +18,8 @@ namespace FootballWorld.DataLayer.Entity.Entity
         public decimal? ClubNetWorth { get; set; }
         public string State { get; set; }
         public string Country { get; set; }
+        public int Defensive { get; set; }
+        public int Offensive { get; set; }
 
         public virtual League League { get; set; }
     }

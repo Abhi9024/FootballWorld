@@ -16,3 +16,12 @@ D:\Projects\FootballWorld\FootballWorld.DataLayer.Entity\obj\Debug\netcoreapp2.0
 D:\Projects\FootballWorld\FootballWorld.DataLayer.Entity\obj\Debug\netcoreapp2.0\FootballWorld.DataLayer.Entity.AssemblyInfo.cs
 D:\Projects\FootballWorld\FootballWorld.DataLayer.Entity\obj\Debug\netcoreapp2.0\FootballWorld.DataLayer.Entity.dll
 D:\Projects\FootballWorld\FootballWorld.DataLayer.Entity\obj\Debug\netcoreapp2.0\FootballWorld.DataLayer.Entity.pdb
+D:\My Folder\Projects\FootballWorld\FootballWorld.DataLayer.Entity\bin\Debug\netcoreapp2.0\FootballWorld.DataLayer.Entity.deps.json
+D:\My Folder\Projects\FootballWorld\FootballWorld.DataLayer.Entity\bin\Debug\netcoreapp2.0\FootballWorld.DataLayer.Entity.dll
+D:\My Folder\Projects\FootballWorld\FootballWorld.DataLayer.Entity\bin\Debug\netcoreapp2.0\FootballWorld.DataLayer.Entity.pdb
+D:\My Folder\Projects\FootballWorld\FootballWorld.DataLayer.Entity\obj\Debug\netcoreapp2.0\FootballWorld.DataLayer.Entity.csprojResolveAssemblyReference.cache
+D:\My Folder\Projects\FootballWorld\FootballWorld.DataLayer.Entity\obj\Debug\netcoreapp2.0\FootballWorld.DataLayer.Entity.csproj.CoreCompileInputs.cache
+D:\My Folder\Projects\FootballWorld\FootballWorld.DataLayer.Entity\obj\Debug\netcoreapp2.0\FootballWorld.DataLayer.Entity.AssemblyInfoInputs.cache
+D:\My Folder\Projects\FootballWorld\FootballWorld.DataLayer.Entity\obj\Debug\netcoreapp2.0\FootballWorld.DataLayer.Entity.AssemblyInfo.cs
+D:\My Folder\Projects\FootballWorld\FootballWorld.DataLayer.Entity\obj\Debug\netcoreapp2.0\FootballWorld.DataLayer.Entity.dll
+D:\My Folder\Projects\FootballWorld\FootballWorld.DataLayer.Entity\obj\Debug\netcoreapp2.0\FootballWorld.DataLayer.Entity.pdb
