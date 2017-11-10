@@ -12,11 +12,11 @@ using FootballWorld.Business.Logic.Models;
 namespace FootballWorld.Controllers
 {
     [Route("api/[controller]")]
-    public class ValuesController : Controller
+    public class FootballController : Controller
     {
         private IDataProvider _repo;
 
-        public ValuesController(IDataProvider repo)
+        public FootballController(IDataProvider repo)
         {
             _repo = repo;
         }
@@ -27,7 +27,6 @@ namespace FootballWorld.Controllers
         {
             var result = _repo.GetChampionsLeagueClub();
             return result;
-
         }
 
         // GET api/values/5
@@ -39,8 +38,12 @@ namespace FootballWorld.Controllers
 
         // POST api/values
         [HttpPost]
-        public void Post([FromBody]string value)
+        [Route("AddClub")]
+        public ClubsServiceModel Post([FromBody]ClubsServiceModel value)
         {
+            var data = _repo.AddOrUpdateClub(value);
+
+            return data;
         }
 
         // PUT api/values/5

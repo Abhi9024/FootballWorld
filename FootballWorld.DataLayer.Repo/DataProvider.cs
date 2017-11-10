@@ -17,6 +17,34 @@ namespace FootballWorld.DataLayer.Repo
         {
             _context = context;
         }
+
+        public ClubsServiceModel AddOrUpdateClub(ClubsServiceModel club)
+        {
+            var leagueId = _context.League.Where(l => l.LeagueName == club.LeagueName).Select(l=>l.Id).FirstOrDefault();
+
+            var clubEntity = new Club()
+            {
+                ClubName = club.ClubName,
+                ClubDescription = club.ClubDescription,
+                LeagueId = leagueId,
+                LeagueTitles = club.LeagueTitles,
+                EuropaLeagueTitles = club.EuropaLeagueTitles,
+                ChampionsLeagueTitles = club.ChampionsLeagueTitles,
+                ClubNetWorth = club.ClubNetWorth,
+                Country = club.Country,
+                Defensive = club.Defensive,
+                FoundedDate = club.FoundedDate,
+                Offensive = club.Offensive,
+                Ranking = club.Ranking,
+                State = club.State
+            };
+
+            _context.Club.Add(clubEntity);
+            _context.SaveChanges();
+
+            return club;
+        }
+
         public List<ClubsServiceModel> GetChampionsLeagueClub()
         {
             var entities = _context.Club

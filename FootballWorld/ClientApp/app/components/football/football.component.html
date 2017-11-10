@@ -108,18 +108,111 @@
                 <div class="row">
                     <div class="col-sm-4">
                         <label class="center-block">
-                            Name:
+                            Club Name:
                         </label>
                         <input type="text" class="form-control" formControlName="clubName">
                         <div class="alert alert-danger" [hidden]="clubsForm.controls.clubName.untouched || clubsForm.controls.clubName.valid">Club name is required.</div>
                     </div>
+                    <div class="col-sm-4">
+                        <label class="center-block">
+                            Club Description:
+                        </label>
+                        <input type="text" class="form-control" formControlName="clubDescription">
+                        <div class="alert alert-danger" [hidden]="clubsForm.controls.clubDescription.untouched || clubsForm.controls.clubDescription.valid">Club Description is required.</div>
+                    </div>
+                    <div class="col-sm-4">
+                        <label class="center-block">
+                            Founded Date:
+                        </label>
+                        <input type="date" class="form-control" formControlName="foundedDate">
+                        <div class="alert alert-danger" [hidden]="clubsForm.controls.foundedDate.untouched || clubsForm.controls.foundedDate.valid">Founded Date is required.</div>
+                    </div>
                 </div>
-            </div>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <label class="center-block">
+                            Champions League Titles:
+                        </label>
+                        <input type="text" class="form-control" formControlName="championsLeagueTitles">
+                        <div class="alert alert-danger" [hidden]="clubsForm.controls.championsLeagueTitles.untouched || clubsForm.controls.championsLeagueTitles.valid">Champions League Title is required.</div>
+                    </div>
+                    <div class="col-sm-4">
+                        <label class="center-block">
+                            League Name:
+                        </label>
+                        <input type="text" class="form-control" formControlName="leagueName">
+                        <div class="alert alert-danger" [hidden]="clubsForm.controls.leagueName.untouched || clubsForm.controls.leagueName.valid">League Name is required.</div>
+                    </div>
+                    <div class="col-sm-4">
+                        <label class="center-block">
+                            League Titles:
+                        </label>
+                        <input type="text" class="form-control" formControlName="leagueTitles">
+                        <div class="alert alert-danger" [hidden]="clubsForm.controls.clubName.untouched || clubsForm.controls.clubName.valid">League Titles is required.</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-3">
+                        <label class="center-block">
+                            Club Worth:
+                        </label>
+                        <input type="text" class="form-control" formControlName="clubNetWorth">
+                        <div class="alert alert-danger" [hidden]="clubsForm.controls.clubNetWorth.untouched || clubsForm.controls.clubNetWorth.valid">Club Worth is required.</div>
+                    </div>
+                    <div class="col-sm-3">
+                        <label class="center-block">
+                            Country:
+                        </label>
+                        <input type="text" class="form-control" formControlName="country">
+                        <div class="alert alert-danger" [hidden]="clubsForm.controls.country.untouched || clubsForm.controls.country.valid">Country is required.</div>
+                    </div>
+                    <div class="col-sm-3">
+                        <label class="center-block">
+                            Ranking:
+                        </label>
+                        <input type="text" class="form-control" formControlName="ranking">
+                        <div class="alert alert-danger" [hidden]="clubsForm.controls.ranking.untouched || clubsForm.controls.ranking.valid">Ranking is required.</div>
+                    </div>
+                    <div class="col-sm-3">
+                        <label class="center-block">
+                            State:
+                        </label>
+                        <input type="text" class="form-control" formControlName="state">
+                        <div class="alert alert-danger" [hidden]="clubsForm.controls.ranking.untouched || clubsForm.controls.ranking.valid">State is required.</div>
+                    </div>
+                    
+                </div>
+                <div class="row">
+                    <div class="col-sm-3">
+                        <label class="center-block">
+                           Defensive:
+                        </label>
+                        <input type="text" class="form-control" formControlName="defensive">
+                        <div class="alert alert-danger" [hidden]="clubsForm.controls.defensive.untouched || clubsForm.controls.defensive.valid">Defensive is required.</div>
+                    </div>
+                    <div class="col-sm-3">
+                        <label class="center-block">
+                            Offensive:
+                        </label>
+                        <input type="text" class="form-control" formControlName="offensive">
+                        <div class="alert alert-danger" [hidden]="clubsForm.controls.offensive.untouched || clubsForm.controls.offensive.valid">Offensive is required.</div>
+                    </div>
+                    <div class="col-sm-3">
+                        <label class="center-block">
+                            Europa League Titles:
+                        </label>
+                        <input type="text" class="form-control" formControlName="europaLeagueTitles">
+                        <div class="alert alert-danger" [hidden]="clubsForm.controls.europaLeagueTitles.untouched || clubsForm.controls.europaLeagueTitles.valid"> Europa League Titles is required.</div>
+                    </div>
+                    </div>
+                </div>
             <button type="submit" class="btn btn-success">
                 Submit
             </button>
         </form>
     </div>
 </div>
+
+
 
 

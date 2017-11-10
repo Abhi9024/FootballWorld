@@ -2,12 +2,14 @@
     clubName: string;
     clubDescription: string;
     leagueName: string;
+    foundedDate: Date;
     leagueTitles: number;
-    championsLeagueTitle: number;
-    clubWorth: string;
+    championsLeagueTitles: number;
+    clubNetWorth: number;
     ranking: number;
     state: string;
     country: string;
     defensive: number;
     offensive: number;
+    europaLeagueTitles: number;
 } 

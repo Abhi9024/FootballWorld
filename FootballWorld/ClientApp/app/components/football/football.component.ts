@@ -17,15 +17,17 @@ export class FootballComponent {
     club: IClub = {
         clubName: '',
         clubDescription: '',
-        championsLeagueTitle:0,
+        championsLeagueTitles: 0,
         leagueName: '',
+        foundedDate: new Date(),
         leagueTitles: 0,
-        clubWorth: '',
+        clubNetWorth: 0,
         country: '',
         ranking: 0,
         state: '',
         defensive: 0,
-        offensive:0
+        offensive: 0,
+        europaLeagueTitles: 0
     };
 
     constructor(private footBallService: FootballService, private formBuilder: FormBuilder) { }
@@ -44,14 +46,22 @@ export class FootballComponent {
         this.clubsForm = this.formBuilder.group({
             clubName: [this.club.clubName, Validators.required],
             clubDescription: [this.club.clubDescription, Validators.required],
-            championsLeagueTitle: [this.club.championsLeagueTitle, Validators.required],
+            championsLeagueTitles: [this.club.championsLeagueTitles, Validators.required],
             leagueName: [this.club.leagueName, Validators.required],
+            foundedDate: [this.club.foundedDate, Validators.required],
             leagueTitles: [this.club.leagueTitles, Validators.required],
-            clubWorth: [this.club.clubWorth, Validators.required],
+            clubNetWorth: [this.club.clubNetWorth, Validators.required],
             country: [this.club.country, Validators.required],
             ranking: [this.club.ranking, Validators.required],
-            state: [this.club.state, Validators.required]
+            state: [this.club.state, Validators.required],
+            defensive: [this.club.defensive, Validators.required],
+            offensive: [this.club.offensive, Validators.required],
+            europaLeagueTitles: [this.club.europaLeagueTitles, Validators.required]
         });
+    };
+
+    SubmitForm({ value, valid }: { value: IClub, valid: boolean }) {
+        this.footBallService.addClub(value).subscribe(result => { this.getChampionsLeagueClubs() }, (err) => console.log(err));
     };
 
     toggleAddClub(): void {

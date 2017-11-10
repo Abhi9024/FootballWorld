@@ -8,5 +8,7 @@ namespace FootballWorld.DataLayer.Repo
     {
         List<Club> GetLeagueClubs(string league);
         List<ClubsServiceModel> GetChampionsLeagueClub();
+
+        ClubsServiceModel AddOrUpdateClub(ClubsServiceModel club);
     }
 }
